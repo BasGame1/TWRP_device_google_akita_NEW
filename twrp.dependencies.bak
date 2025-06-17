@@ -1,0 +1,17 @@
+[
+  {
+    "repository": "android_device_google_akita",
+    "target_path": "device/google/akita",
+    "branch": "main"
+  },
+  {
+    "repository": "android_vendor_google_akita",
+    "target_path": "vendor/google/akita",
+    "branch": "main"
+  },
+  {
+    "repository": "android_kernel_google_akita",
+    "target_path": "kernel/google/akita",
+    "branch": "main"
+  }
+]
