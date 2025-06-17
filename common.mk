@@ -1,7 +1,7 @@
 # vendor/omni/config/common.mk
 
 # Inherit some common Omni stuff
-$(call inherit-product, device/google/generic/omni.mk)
+$(call inherit-product, device/google/generic/omni_generic.mk)
 
 # Enable debugging
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
