@@ -6,9 +6,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/omni_generic.mk
+    $(LOCAL_DIR)/twrp_akita.mk
 
-COMMON_LUNCH_CHOICES := \
-    omni_generic-user \
-    omni_generic-userdebug \
-    omni_generic-eng
+#COMMON_LUNCH_CHOICES := \
+#   twrp-akita-user \
+ #   twrp-akita-userdebug \
+  #  twrp-akita-eng

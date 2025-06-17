@@ -10,13 +10,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common Omni stuff.
-$(call inherit-product, device/google/generic/common.mk)
+$(call inherit-product, device/google/akita/common.mk)
 
 # Inherit from generic device
-$(call inherit-product, device/google/generic/device.mk)
+$(call inherit-product, device/google/akita/device.mk)
 
-PRODUCT_DEVICE := generic
-PRODUCT_NAME := omni_generic
+PRODUCT_DEVICE := akita
+PRODUCT_NAME := twrp_akita
 PRODUCT_BRAND := google
 PRODUCT_MODEL := mainline
 PRODUCT_MANUFACTURER := google

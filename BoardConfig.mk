@@ -5,7 +5,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/google/generic
+DEVICE_PATH := device/google/akita
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -45,14 +45,14 @@ TARGET_USES_VULKAN := true
 
 # Kernel
 BOARD_KERNEL_BASE := 0x10000000
-BOARD_KERNEL_PAGESIZE := 2048
+BOARD_KERNEL_PAGESIZE := 4098
 BOARD_RAMDISK_OFFSET := 0x00000000
 BOARD_KERNEL_TAGS_OFFSET := 0x00000100
 BOARD_MKBOOTIMG_ARGS += --ramdisk_offset $(BOARD_RAMDISK_OFFSET)
 BOARD_MKBOOTIMG_ARGS += --tags_offset $(BOARD_KERNEL_TAGS_OFFSET)
 BOARD_KERNEL_IMAGE_NAME := Image
 TARGET_KERNEL_CONFIG := generic_defconfig
-TARGET_KERNEL_SOURCE := kernel/google/generic
+TARGET_KERNEL_SOURCE := kernel/google/akita
 
 # Kernel - prebuilt
 TARGET_FORCE_PREBUILT_KERNEL := true

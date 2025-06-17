@@ -8,7 +8,7 @@
 
 set -e
 
-DEVICE=generic
+DEVICE=akita
 VENDOR=google
 
 # Load extract_utils and do some sanity checks
